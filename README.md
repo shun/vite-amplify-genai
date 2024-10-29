@@ -11,6 +11,8 @@ npm create vite@latest -- --template react-ts
 ```bash
 npm add --save-dev @aws-amplify/backend@latest @aws-amplify/backend-cli@latest
 npm install @aws-sdk/client-secrets-manager @aws-amplify/ui-react
+mkdir amplify
+touch amplify/backend.ts
 ```
 
 ## GitHubリポジトリの登録
